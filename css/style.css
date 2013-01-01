@@ -1,0 +1,94 @@
+html,body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px;
+}
+
+
+.navbar-inverse .brand {
+	color: hsl(210, 95%, 52%);
+}
+
+.main-content {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background: hsl(65, 7%, 47%);
+	width: 100%;
+}
+
+.kalkulasi-content {
+	padding-top: 120px;
+	padding-bottom: 40px;
+	background: hsl(65, 7%, 47%);
+	width: 100%;
+}
+
+.dtgrid {
+	background: #fff;
+}
+
+.fordatagrid {
+	border-radius: 5px;
+	padding: 10px 5px 0px 5px;
+	background: #000;
+	background: hsl(206, 82%, 43%);
+	box-shadow: 2px 2px 15px 5px rgba(46,46,46,1);
+	-webkit-box-shadow: 2px 2px 15px 5px rgba(46,46,46,1);
+	-moz-box-shadow: 2px 2px 15px 5px rgba(46,46,46,1);
+
+}
+
+.addclient {
+	border-radius: 5px;
+	padding: 10px 15px 15px 15px;
+	background: #000;
+	background: hsl(44, 64%, 77%);
+	box-shadow: 2px 2px 15px 5px rgba(46,46,46,1);
+	-webkit-box-shadow: 2px 2px 15px 5px rgba(46,46,46,1);
+	-moz-box-shadow: 2px 2px 15px 5px rgba(46,46,46,1);
+
+}
+
+.justadd {
+	margin-top: -2px;
+	padding: 0px;
+}
+
+#moddelete {
+	margin: -300px 0 0 -280px;
+}
+
+.bawah {
+	color: #FFF;
+	background: #101010;
+	position: relative;
+	height: 40px;
+	/*margin-top: -80px;*/
+	clear: both;
+	/*padding-top: 20px;*/
+}
+
+.bawah p {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.pushkalkulasi {
+	margin-top: 40px;
+}
+
+.ikalkulasi {
+	color: #FFF;
+	clear: both;
+	position: fixed;
+	padding-top: 15px;
+	padding-left: 10px;
+	background: #333;
+	height: 40px;
+	width: 100%;
+}

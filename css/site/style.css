@@ -1,0 +1,286 @@
+body {
+	background: #101010;	
+}
+
+.top {
+	background: #000 url(../../img/site/topbg.gif) repeat-x;
+	height: 25px;
+}
+
+.pucukatas {
+	margin: 0 auto;
+	padding: 0px;
+	width: 17px;
+	height: 25px;
+	background: url(../../img/site/sprites_home.png) no-repeat 0 0;
+	background-position: 0 -124px;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #064b7b url(../../img/site/header_gradient.gif) no-repeat center center;
+}
+
+.header {
+	height: 350px;
+	background: #064b7b url(../../img/site/header_gradient.gif) no-repeat center center;
+}
+
+.kiri {
+	position: absolute;
+	overflow: hidden;
+	float: left;
+	margin: 100px 100px;
+}
+
+.kiri h1.logo {
+	background: url(../../img/site/logo.png);
+	width: 479px;
+	height: 98px;
+}
+
+.kanan {
+	position: absolute;
+	overflow: hidden;
+	padding: 15px;
+	font-family: droid sans;
+	color: #e5e5e5;
+	float: right;
+	margin-top: 80px;
+	margin-left: 800px;
+	width: 400px;
+	height: 50%;
+	background: hsla(179, 100%, 92%,0.2);
+	box-shadow: 1px 1px 4px rgba(0,0,0,1) inset, 0px 1px rgba(255,255,255,0.06);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+input,label {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.kanan form label {
+	font-size: 18px;
+	float: left;
+	width: 100px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	padding-right: 10px;
+	text-align: right;
+	font-weight: 100;
+	text-shadow: 1px 1px 0px #101010;
+}
+
+.kanan p {
+	margin: 0 0 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+	font-family: 'Helvtica Neue',Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 0px 10px;
+	width: 300px;
+	height: 40px;
+	text-shadow: 0px 0px 1px #101010;
+	background: #fff repeat scroll 0%;
+	border: 0px none;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,1) inset, 0px 1px rgba(255,255,255,0.06);
+	box-shadow: 0px 1px 4px rgba(0,0,0,1) inset, 0px 1px rgba(255,255,255,0.06);
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder {
+	color: grey;
+}
+
+input[type="text"]:focus::-webkit-input-placeholder,
+input[type="password"]:focus::-webkit-input-placeholder {
+	color: #000;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	color: #000;
+	background: #fefefe;
+	outline: 0;
+	box-shadow: 1px 1px 4px 1px #54C5F4 inset, 1px 1px rgba(255,255,255,0.06);
+}
+
+.submit {
+	float: right;
+}
+
+.pucukbawah {
+	margin: -11px auto;
+	width: 17px;
+	height: 20px;
+	background: url(../../img/site/sprites_home.png) no-repeat 0 0;
+	background-position: -26px -130px;
+}
+
+.tengah {
+	clear: both;
+	padding: 0px;
+	background: url(../../img/site/tengahbg.gif) repeat-x;
+	height: 12px;	
+}
+
+.bottomwrapper {
+	clear: both;
+	position: relative;
+	overflow: hidden;
+	padding: 0px;	
+	height: 197px;
+	background: #101010 url(../../img/site/bottom_gradient.png) no-repeat center top;
+}
+
+.info {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFF;
+}
+
+.col1 {
+	float: left;
+	width: 25%;
+	height: 100%;
+	margin-top: 10px;
+	margin-left: 70px;
+	text-shadow: 0px 0px 1px #101010;
+}
+
+.col1 h1 {
+	margin-right: 5px;
+	display: inline-block;
+	width: 17px;
+	height: 12px;
+	background: url(../../img/site/sprites_home.png) no-repeat 0 0;
+	background-position: -65px -137px;
+}
+
+.garis {
+	margin-top: 10px;
+	background: url(../../img/site/garis.png) repeat-x;
+	height: 6px;
+}
+
+.col1 ul,h2{
+	display: inline;
+}
+
+.col1 h2 {
+	font-size: 15px;
+	padding-right: 10px;
+}
+
+.col1 ul li {
+	margin-top: 20px;
+}
+
+.nim {
+	color: #2c80ba;
+	text-shadow: 0px 1px 1px #142937;
+}
+
+.col2 {
+	font-size: 12px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 100px;
+}
+
+.sponsorci {
+	margin-top: 0px;
+	display: block;
+	background: url(../../img/site/sprites_home.png) no-repeat 0 0;
+	background-position: 0 0;
+	width: 184px;
+	width: 184px;
+	height: 50px;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+}
+
+.sponsorcompass {
+	margin-top: 0px;
+	display: block;
+	background: url(../../img/site/sprites_home.png) no-repeat 0 0;
+	background-position: 0 -53px;
+	width: 184px;
+	height: 50px;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+}
+
+.weblink {
+	color: #9b9b9b;
+	text-decoration: none;
+}
+
+.weblink:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.button {
+   border: 1px solid #0A3C59;
+   background: #3E779D;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65A9D7), to(#3E779D));
+   background: -webkit-linear-gradient(top, #65A9D7, #3E779D);
+   background: -moz-linear-gradient(top, #65A9D7, #3E779D);
+   background: -ms-linear-gradient(top, #65A9D7, #3E779D);
+   background: -o-linear-gradient(top, #65A9D7, #3E779D);
+   background-image: -ms-linear-gradient(top, #65A9D7 0%, #3E779D 100%);
+   padding: 10px 20px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7EA4BD 0 1px 0;
+   color: #06426C;
+   font-size: 14px;
+   font-family: Arial, Helvetica, Serif;
+   font-weight: normal;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 1px solid #0A3C59;
+   text-shadow: #1E4158 0 1px 0;
+   background: #3E779D;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65A9D7), to(#3E779D));
+   background: -webkit-linear-gradient(top, #65A9D7, #3E779D);
+   background: -moz-linear-gradient(top, #65A9D7, #3E779D);
+   background: -ms-linear-gradient(top, #65A9D7, #3E779D);
+   background: -o-linear-gradient(top, #65A9D7, #3E779D);
+   background-image: -ms-linear-gradient(top, #65A9D7 0%, #3E779D 100%);
+   color: #FFFFFF;
+   text-decoration: none;
+   }
+.button:active {
+   text-shadow: #1E4158 0 1px 0;
+   border: 1px solid #0A3C59;
+   background: #65A9D7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3E779D), to(#3E779D));
+   background: -webkit-linear-gradient(top, #3E779D, #65A9D7);
+   background: -moz-linear-gradient(top, #3E779D, #65A9D7);
+   background: -ms-linear-gradient(top, #3E779D, #65A9D7);
+   background: -o-linear-gradient(top, #3E779D, #65A9D7);
+   background-image: -ms-linear-gradient(top, #3E779D 0%, #65A9D7 100%);
+   color: #FFFFFF;
+   }
