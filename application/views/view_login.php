@@ -65,7 +65,11 @@
 					<h2>Ekhsandra Yusuf Lasamanov</h2>
 				</li>
 				<li>
-					<h2 class="nim">A12.2009.0378</h2>
+					<h2 class="nim">A12.2009.03423</h2>
+					<h2>Fandi Rahmad Darmawan</h2>
+				</li>
+				<li>
+					<h2 class="nim">A12.2009.03782</h2>
 					<h2>Aji Sulistyono</h2>
 				</li> 
 			</ul>

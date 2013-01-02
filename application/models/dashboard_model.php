@@ -184,13 +184,7 @@ class Dashboard_model extends CI_Model {
 
 	/* ------------------------------------- start main calculation ------------------------------------- */
 
-	/*function set_global() {
-		$okp = $this->okp;
-		$keba = $this->keba;
-		$jenis = $this->jenis;
-	}*/
-
-	function jml_modal() {
+	function jml_modal() { //jumlah awal
 		error_reporting(0);
 		$data['okupansi'] = $this->session->userdata('okp');
 		$data['kebutuhan_air'] = $this->session->userdata('keba');
@@ -204,7 +198,7 @@ class Dashboard_model extends CI_Model {
 		return $jml;
 	}
 
-	function pv_modal() {
+	function pv_modal() { //priority vector awal
 		error_reporting(0);
 		$data['okupansi'] = $this->session->userdata('okp');
 		$data['kebutuhan_air'] = $this->session->userdata('keba');
@@ -219,7 +213,7 @@ class Dashboard_model extends CI_Model {
 		return $pv;
 	}
 
-	function l_modal() {
+	function l_modal() { //list awal
 		error_reporting(0);
 		$data['okupansi'] = $this->session->userdata('okp');
 		$data['kebutuhan_air'] = $this->session->userdata('keba');

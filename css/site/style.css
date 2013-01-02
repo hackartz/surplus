@@ -153,7 +153,7 @@ input[type="password"]:focus {
 
 .col1 {
 	float: left;
-	width: 25%;
+	width: 40%;
 	height: 100%;
 	margin-top: 10px;
 	margin-left: 70px;
@@ -176,12 +176,14 @@ input[type="password"]:focus {
 }
 
 .col1 ul,h2{
+	float: left;
 	display: inline;
 }
 
 .col1 h2 {
 	font-size: 15px;
 	padding-right: 10px;
+	margin-bottom: 12px;
 }
 
 .col1 ul li {
